@@ -1,0 +1,72 @@
+p {
+    color: green;
+    font-family: Arial, sans-serif;
+}
+
+p.highlight {
+    color: red;
+}
+
+aside p {
+    color: blue !important;
+}
+
+h2, h3 {
+    font-size: 18px;
+}
+
+main {
+    color: #333;
+}
+
+.section h2 {
+    color: #0055cc;
+}
+
+h2 + p {
+    color: #666;
+}
+
+h2 ~ p {
+    font-style: italic;
+}
+
+section p:first-child {
+    margin-top: 20px;
+}
+
+section p:last-child {
+    background-color: #f0f0f0;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: orange;
+}
+
+div {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #000;
+}
+
+img {
+    width: 300px;
+    border: 3px solid #333;
+}
+
+video {
+    width: 500px;
+    height: 280px;
+}
+
+header > nav {
+    background-color: #eaeaea;
+}
+
+#important-info {
+    background-color: #ffffcc;
+}
