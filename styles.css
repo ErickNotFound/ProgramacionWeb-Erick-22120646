@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+}
+
+.nav {
+    background-color: white;
+    padding: 10px 30px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.nav__list__logo {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav__list__logo>a>img {
+    width: 170px;
+    border-radius: 25px;
+    margin-right: 100px;
+}
+
+.nav__list__links {
+    display: inline-block;
+}
+
+.nav__item {
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+    padding-bottom: 5px;
+}
+
+.nav__item>a {
+    color: #000;
+}
+
+.nav__item>a:hover {
+    color: lightskyblue;
+}
+
+.header__content {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIdzg8t_gr4_BwiRmFrL_B551y_x2QRCcRlA&s);
+    background-size: cover;
+    /* No-repeat, no repite la imagen, contain,  */
+    padding: 10px 15px;
+    padding-bottom: 30px;
+    border-radius: 9px;
+}
+
+.header__title {
+    color: white;
+}
+
+.header__buttons {
+    margin-top: 30px;
+}
+
+.header__button {
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.header__button:hover {
+    background-color: lightgray;
+    color: blue;
+}
+
+.section__home {
+    margin: 20px 15px;
+}
+
+.section__title {
+    font-size: 22px;
+}
+
+.section__projects{
+    margin: 20px 15px;
+}
+
+.section__projects > h2 {
+    font-size: 22px;
+}
+
+.projects__list{
+    text-align: center;
+}
+
+.project > img {
+    border-radius: 5px;
+    width: 500px;
+}
+
+.project__description {
+    margin: 20px;
+}
