@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+
+.testimonios{
+    margin: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.testimonios-titulo, .imagenes-titulo, .contactanos-titulo {
+    font-size: 30px;
+    color: cornflowerblue;
+    padding: auto;
+}
+
+.testimonios-block{
+    max-width: 75%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.testimonio{
+    border: 2px cornflowerblue solid;
+    border-radius: 10px;
+    min-width: 10px;
+    width: 300px;
+}
+
+.imagenes{
+    margin: 20px;
+    text-align: center;
+}
+
+
+.imagenes-block{
+    justify-content: center;
+    display: flex;
+    gap: px;
+    flex-wrap: wrap;
+}
+
+.imagen{
+    width: 400px;
+}
+
+img{
+    border: 2px cornflowerblue solid;
+    border-radius: 10px;
+    height: 175px;
+}
+
+.contactanos {
+    text-align: center;
+    border: 2px solid cornflowerblue;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.contactanos-titulo {
+    font-size: 30px;
+    color: cornflowerblue;
+    margin-bottom: 20px; 
+}
+
+.contactanos-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.contactanos-input {
+    width: 100%; 
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+}
+
+.contactanos-input label {
+    font-weight: bold; 
+}
+
+.contactanos-input input,
+.contactanos-input textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.contactanos-input textarea {
+    height: 150px; 
+    resize: vertical; 
+}
+
+.contactanos-enviar {
+    background-color: cornflowerblue;
+    border: none; 
+    border-radius: 5px;
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+.contactanos-enviar:hover {
+    background-color: darkblue; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    background-color: cornflowerblue;
+    margin-top: 40px;
+}
+
+footer p {
+    color: white; 
+    margin: 0; 
+    font-size: 14px;
+}
+
+
