@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container_left, .container_right {
+    flex: 1;
+    height: 100%;
+}
+
+.container_left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container_right {
+    margin: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/750/414/small_2x/hi-tech-digital-circuit-board-futuristic-ai-pad-and-electrical-lines-connected-on-blue-lighting-background-vector.jpg');
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.title{
+    margin-top: 130px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: gray;
+}
+
+.text-bottom{
+    margin-top: auto;
+    padding: 10px 70px;
+    font-size: 0.8em;
+    color: lightslategray;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 2px 2px;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.box-singin{
+    padding:0 55px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.box-singup{
+    padding: 0 55px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.box-field-email {
+    display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  width: 100%; 
+  max-width: 300px;
+  }
+
+  .box-field-email>p{
+    margin: auto;
+    padding: auto; 
+    font-size: 15px;
+    color: gray;
+  }
+
+  .email-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .validation-icon {
+    width: 24px; 
+    height: 24px;
+  }
+
+.continue-button{
+    padding: 16px 130px;
+    margin: auto;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.logos{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 2px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    gap: 30px
+}
+
+.logos>img{
+    border-radius: 20px;
+    border: 1px solid lightslategray;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}
