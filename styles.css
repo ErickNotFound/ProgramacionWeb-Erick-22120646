@@ -1,0 +1,203 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    border-radius: 30px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px 200px;
+}
+
+.container-right{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    flex: 1;
+    height: 100%;
+    background-image: url(https://img.freepik.com/vector-gratis/luces-neon-colores-sobre-fondo-oscuro_52683-36655.jpg);
+    background-size: cover; 
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    margin-top:30px;
+}
+
+.top>img{
+    width: 50px;
+    height: 50px;
+}
+
+.top>div>a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.singin{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: arrow;  
+    width: auto;
+    height: auto;
+}
+
+.singup-title{
+    align-self: flex-start;
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.singup-title-description{
+    align-self: flex-start;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+    margin-bottom: 20px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-field>img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    
+}
+
+.data-field{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 1px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.data-field>p{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+}
+
+.data-field:hover {
+    border-color: #888;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.data-field:nth-child(3){
+    margin-bottom: 10px;
+}
+
+.password-recomendations{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: arrow;
+    padding: 2px;
+    border-radius: 15px;
+    color: green;
+    margin: 10px 0;
+}
+
+.recomendation{
+    color: gray;
+}
+
+.password-recomendations>p{
+    margin: 0;
+    padding: 0;
+}
+
+.password-recomendations>img{
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+
+.password-recomendations:nth-child(3){
+    border-bottom: 50px;
+}
+
+.singup-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    color: gray;
+}
+
+.singup-buttons>button{
+    background-color: rgb(87, 53, 237);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 50px;
+    font-size: 1rem;
+}
+
+.singup-buttons>div>img{
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.bottom>img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
