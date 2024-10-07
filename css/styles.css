@@ -1,0 +1,78 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    background-color: #333;
+    height: 100vh;
+    width: 12vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sidebar__logo{
+    background-color: #222;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__menu{
+    background-color: #222;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__quick-actions{
+    background-color: #222;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__last-orders{
+    background-color: #222;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__logout{
+    background-color: #222;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar__logout-icon{
+    background-color: #222;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content{
+    background-color: red;
+    height: 100vh;
+    width: 88vw;
+    margin: 0;
+    padding: 0;
+}
+
