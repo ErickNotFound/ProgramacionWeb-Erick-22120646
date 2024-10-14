@@ -2,104 +2,250 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Document</title>
+  <title>Document</title>
 </head>
 
 <body>
-    <div class="sidebar">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/512px-LEGO_logo.svg.png"
-            alt="logo" class="sidebar__logo">
 
-        <div class="sidebar__menu">
-            <ul class="sidebar__links">
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-            </ul>
+  <!-- ! Aqui comienza la sidebar -->
+
+  <div class="sidebar">
+    <img src="assets/logo.png" alt="logo" class="sidebar__logo" />
+    <div class="sidebar__links-container">
+      <div class="sidebar__menu">
+        <ul class="sidebar__links sidebar__links--high-gap">
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/icons/ant-design--thunderbolt-outlined.png" alt="icon" class="icon sidebar__icon" />
+              Popular products
+            </a>
+          </li>
+          <li class="sidebar__link-item sidebar__link-item--selected">
+            <a href="" class="sidebar__link sidebar__link--selected"> 
+              <img src="assets/icons/material-symbols-light--explore-outline.png" alt="icon"
+                class="icon sidebar__icon" />
+              Explore now
+            </a>
+          </li>
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/icons/solar--cart-4-outline.png" alt="icon" class="icon sidebar__icon" />
+              Clothing and shoes
+            </a>
+          </li>
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/icons/mdi-light--gift.png" alt="icon" class="icon sidebar__icon" />
+              Gifts and living
+            </a>
+          </li>
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/icons/material-symbols-light--lightbulb-outline.png" alt="icon"
+                class="icon sidebar__icon" />
+              Inspiration
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr class="hr-large">
+
+      <div class="sidebar__quick-actions">
+        <span>Quick actions</span>
+        <ul class="sidebar__links sidebar__links--medium-gap">
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/icons/mdi-light--plus.png" alt="icon"
+                class="icon sidebar__icon sidebar__icon--gray-background" />
+              Request for product
+            </a>
+          </li>
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/icons/mdi-light--plus.png" alt="icon"
+                class="icon sidebar__icon sidebar__icon--gray-background" />
+              Add member
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr class="hr-large">
+
+      <div class="sidebar__last-orders">
+        <span>Last orders</span>
+        <ul class="sidebar__links sidebar__links--medium-gap">
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/products/W+NIKE+AIR+MAX+INTRLK+LITE.png" alt="icon" class="icon sidebar__icon" />
+              DXNO Nike
+            </a>
+          </li>
+
+          <li class="sidebar__link-item">
+            <a href="" class="sidebar__link">
+              <img src="assets/products/612YBFnE3ZL._AC_UF894,1000_QL80_.jpg" alt="icon" class="icon sidebar__icon" />
+              Outwear
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="sidebar__logout-button sidebar__logout-button--transparent">
+        <img src="assets/icons/solar--logout-outline.png" alt="logout" class="icon sidebar__icon" />
+        Logout
+      </button>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="main-content__header">
+      <div class="main-content__header-up">
+        <div class="main-content__orders-count">
+          <span>37</span>
+          <hr />
+          <div class="main-content__orders-date">
+            <span>Orders</span>
+            <span>Last 7 days</span>
+          </div>
         </div>
-
-        <hr>
-
-        <div class="sidebar__quick-actions">
-            <span>Quick actions</span>
-            <ul class="sidebar__links">
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-            </ul>
+        <div class="main-content__portal">
+          <button class="main-content__button main-content__button--selected">Dashboard</button>
+          <button class="main-content__button">Website</button>
         </div>
-
-        <hr>
-
-        <div class="sidebar__last-orders">
-            <span>Last orders</span>
-            <ul class="sidebar__link">
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-                <li class="sidebar__link-item">
-                    <a href="" class="sidebar__link">
-                        <img src="" alt="icon" class="sidebar__icon">
-                    </a>
-                </li>
-            </ul>
+        <div class="main-content__profile-info">
+          <button class="main-content__button">
+            <img src="assets/icons/mdi-light--cart.png" alt="icon" class="icon main-content__button-icon" />
+            Cart
+          </button>
+          <div class="main-content__select-products">
+            <img src="assets/products/camisa.jpg" alt="product" class="main-content__product-image" />
+            <span>+8</span>
+            <img src="assets/products/lentes.jpg" alt="product" class="main-content__product-image" />
+            <img src="assets/products/pantalon.jpg" alt="product" class="main-content__product-image" />
+          </div>
+          <div class="main-content__profile">
+            <img src="assets/icons/iconamoon--profile-circle-thin.png" alt="profile picture" />
+            <span>Ryana</span>
+          </div>
         </div>
-
-        <button class="sidebar__logout">
-            <img src="" alt="logout" class="sidebar__icon">
-            <span>Logout</span>
-        </button>
+      </div>
+      <div class="main-content__header-down">
+        <span class="main-content__section-name">Explore</span>
+        <div class="main-content__genres-buttons">
+          <button class="main-content__button main-content__button--select-down">
+            <img src="assets/icons/fluent--select-all-off-20-regular.png" alt=""
+              class="icon main-content__button-icon" />All
+          </button>
+          <button class="main-content__button">
+            <img src="assets/icons/ion--man-outline.png" alt="" class="icon main-content__button-icon" />Men
+          </button>
+          <button class="main-content__button">
+            <img src="assets/icons/ion--woman-outline.png" alt="" class="icon main-content__button-icon" />Women
+          </button>
+        </div>
+        <div class="main-content__search-buttons">
+          <button class="main-content__button">Filters</button>
+          <button class="main-content__button main-content__button--small">
+            <img src="assets/icons/iconamoon--search-thin.png" alt="icon" class="icon main-content__button-icon" />
+          </button>
+        </div>
+      </div>
     </div>
 
-    <div class="main-content">
-        <div class="main-content__content-header">
-            
-        </div>
-        <div class="main-content__products-section">
-            <div class="main-content__offers">
+    <!-- 
+      ! Aqui empieza la parte de los productos
+    -->
 
+    <div class="main-content__products-section">
+      <div class="main-content__offers">
+        <div class="main-content__seasonal-offers">
+          <div class="main-content__offer  main-content__offer--discount">
+            <span class="main-content__title main-content__title--small">GET UP TO 50% OFF</span>
+            <button class="main-content__button main-content__product-button main-content__product-button--blur">Get
+              Discout</button>
+          </div>
+          <div class="main-content__offer  main-content__offer--seasonal">
+            <div class="main-content__card-icons">
+              <img src="assets/icons/lucide--arrow-up-right.png" alt="" class="icon main-content__card-icon">
             </div>
-            <div class="main-content__products">
-
+            <div class="main-content__title-container main-content__title-container--center main-content__title-container--yellow-model">
+              <span class="main-content__title">Winter's weekend</span>
+              <span class="main-content__subtitle">keep it casual</span>
             </div>
+          </div>
         </div>
+        <div class="main-content__offer-options">
+          <div class="main-content__offer-option main-content__offer-option-avail">
+            <div class="main-content__card-icons">
+              <img src="assets/icons/mdi--heart-outline.png" alt="favorito" class="main-content__card-icon">
+            </div>
+            <button
+              class="main-content__button main-content__product-button main-content__product-button--buttom-position main-content__product-button--blur">Avail
+              offers</button>
+          </div>
+          <div class="main-content__offer-option main-content__offer-option-more">
+            <div class="main-content__offer-option-extra main-content__offer-option-extra--small">
+              <span>Favorites</span>
+              <img src="assets/icons/teenyicons--left-outline.png" alt=""
+                class="icon main-content__card-icon main-content__card-icon--trasparent">
+              <img src="assets/icons/teenyicons--right-outline.png" alt=""
+                class="icon main-content__card-icon main-content__card-icon--trasparent">
+            </div>
+            <div class="main-content__offer-option-extra">
+              <img src="" alt="modelo" class="main-content__model-img">
+              <div class="main-content__offer-option-extra-extra">
+                <img src="" alt="modelo" class="main-content__model-img">
+                <button
+                  class="main-content__button main-content__product-button main-content__product-button--small">See
+                  All</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content__products"> <!-- TODO: Terminar esta parte -->
+        <div class="main-content__seasonal-products">
+          <div class="main-content__seasonal-product">
+            <div class="main-content__card-icons">
+              <img src="assets/icons/mdi--heart-outline.png" alt="" class="main-content__card-icon">
+            </div>
+            <div class="main-content__producto-information-container">
+              <div class="main-content__title-container">
+                <span class="main-content__subtitle main-content__category">Your choice</span>
+                <span class="main-content__product-name">Super Skiny <br> jogger in brown</span>
+              </div>
+              <button
+                class="main-content__button main-content__product-button main-content__product-button--blue">$89</button>
+            </div>
+          </div>
+          <div class="main-content__seasonal-product">
+            <div class="main-content__card-icons">
+              <img src="assets/icons/mdi--heart-outline.png" alt="" class="main-content__card-icon">
+            </div>
+            <div class="main-content__producto-information-container">
+              <div class="main-content__title-container">
+                <span class="main-content__subtitle main-content__category">Our Pickle</span>
+                <span class="main-content__product-name">WMX Rubber <br>Zebra sandal</span>
+              </div>
+              <button
+                class="main-content__button main-content__product-button main-content__product-button--blue">$36</button>
+            </div>
+          </div>
+        </div>
+        <div class="main-content__product-recomendation">
+          <div class="main-content__card-icons">
+            <img src="assets/icons/lucide--arrow-up-right.png" alt="" class="main-content__card-icon">
+          </div>
+          <div class="main-content__title-container main-content__title-container--center">
+            <span class="main-content__title">Bring Bold Fashion</span>
+            <span class="main-content__subtitle">Layers on Layers</span>
+          </div>
+        </div>
+      </div>
     </div>
-
+  </div>
 </body>
 
 </html>
