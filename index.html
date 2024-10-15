@@ -10,9 +10,9 @@
 </head>
 
 <body>
-  <div class="sidebar">
+  <aside class="sidebar">
     <div class="sidebar__logo"></div>
-    <div class="sidebar__links-container">
+    <nav class="sidebar__links-container">
       <div class="sidebar__menu">
         <ul class="sidebar__links sidebar__links--high-gap">
           <li class="sidebar__link-item">
@@ -50,7 +50,7 @@
         </ul>
       </div>
       <hr class="hr-large">
-      <div class="sidebar__quick-actions">
+      <section class="sidebar__quick-actions">
         <span>Quick actions</span>
         <ul class="sidebar__links sidebar__links--medium-gap">
           <li class="sidebar__link-item">
@@ -68,9 +68,9 @@
             </a>
           </li>
         </ul>
-      </div>
+      </section>
       <hr class="hr-large">
-      <div class="sidebar__last-orders">
+      <section class="sidebar__last-orders">
         <span>Last orders</span>
         <ul class="sidebar__links sidebar__links--medium-gap">
           <li class="sidebar__link-item">
@@ -86,15 +86,16 @@
             </a>
           </li>
         </ul>
-      </div>
+      </section>
       <button class="sidebar__logout-button sidebar__logout-button--transparent">
         <img src="assets/icons/solar--logout-outline.png" alt="logout" class="icon sidebar__icon" />
         Logout
       </button>
-    </div>
-  </div>
-  <div class="main-content">
-    <div class="main-content__header">
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <header class="main-content__header">
       <div class="main-content__header-up">
         <div class="main-content__orders-count">
           <span>37</span>
@@ -110,7 +111,7 @@
         </div>
         <div class="main-content__profile-info">
           <button class="main-content__button">
-            <img src="assets/icons/mdi-light--cart.png" alt="icon" class="icon main-content__button-icon" />
+            <img src="assets/icons/mdi-light--cart.png" alt="cart-icon" class="icon main-content__button-icon" />
             Cart
           </button>
           <div class="main-content__select-products">
@@ -129,36 +130,36 @@
         <span class="main-content__section-name">Explore</span>
         <div class="main-content__genres-buttons">
           <button class="main-content__button main-content__button--select-down">
-            <img src="assets/icons/fluent--select-all-off-20-regular.png" alt=""
+            <img src="assets/icons/fluent--select-all-off-20-regular.png" alt="compass icon"
               class="icon main-content__button-icon" />All
             <div class="main-content__button-indicator"></div>
           </button>
           <button class="main-content__button">
-            <img src="assets/icons/ion--man-outline.png" alt="" class="icon main-content__button-icon" />Men
+            <img src="assets/icons/ion--man-outline.png" alt="men icon" class="icon main-content__button-icon" />Men
           </button>
           <button class="main-content__button">
-            <img src="assets/icons/ion--woman-outline.png" alt="" class="icon main-content__button-icon" />Women
+            <img src="assets/icons/ion--woman-outline.png" alt="women icon" class="icon main-content__button-icon" />Women
           </button>
         </div>
         <div class="main-content__search-buttons">
           <button class="main-content__button">Filters</button>
           <button class="main-content__button main-content__button--small">
-            <img src="assets/icons/iconamoon--search-thin.png" alt="icon" class="icon main-content__button-icon" />
+            <img src="assets/icons/iconamoon--search-thin.png" alt="lens icon" class="icon main-content__button-icon" />
           </button>
         </div>
       </div>
-    </div>
-    <div class="main-content__products-section">
+    </header>
+    <section class="main-content__products-section">
       <div class="main-content__offers">
         <div class="main-content__seasonal-offers">
           <div class="main-content__offer  main-content__offer--discount">
             <span class="main-content__title main-content__title--small">GET UP TO 50% OFF</span>
             <button class="main-content__button main-content__product-button main-content__product-button--blur">Get
-              Discout</button>
+              Discount</button>
           </div>
           <div class="main-content__offer  main-content__offer--seasonal">
             <div class="main-content__card-icons">
-              <img src="assets/icons/lucide--arrow-up-right.png" alt="" class="icon main-content__card-icon">
+              <img src="assets/icons/lucide--arrow-up-right.png" alt="Link to seasonal offer" class="icon main-content__card-icon">
             </div>
             <div
               class="main-content__title-container main-content__title-container--center main-content__title-container--yellow-model">
@@ -170,7 +171,7 @@
         <div class="main-content__offer-options">
           <div class="main-content__offer-option main-content__offer-option-avail">
             <div class="main-content__card-icons">
-              <img src="assets/icons/mdi--heart-outline.png" alt="favorito" class="main-content__card-icon">
+              <img src="assets/icons/mdi--heart-outline.png" alt="Add to favorite" class="main-content__card-icon">
             </div>
             <button
               class="main-content__button main-content__product-button main-content__product-button--buttom-position main-content__product-button--blur">Avail
@@ -179,9 +180,9 @@
           <div class="main-content__offer-option main-content__offer-option-more">
             <div class="main-content__offer-option-extra main-content__offer-option-extra--small">
               <span>Favorites</span>
-              <img src="assets/icons/teenyicons--left-outline.png" alt=""
+              <img src="assets/icons/teenyicons--left-outline.png" alt="Add to favorite"
                 class="icon main-content__card-icon main-content__card-icon--trasparent">
-              <img src="assets/icons/teenyicons--right-outline.png" alt=""
+              <img src="assets/icons/teenyicons--right-outline.png" alt="Add to favorite"
                 class="icon main-content__card-icon main-content__card-icon--trasparent">
             </div>
             <div class="main-content__offer-option-extra">
@@ -202,7 +203,7 @@
         <div class="main-content__seasonal-products">
           <div class="main-content__seasonal-product main-content__seasonal-product--jeans">
             <div class="main-content__card-icons">
-              <img src="assets/icons/mdi--heart-outline.png" alt="" class="main-content__card-icon">
+              <img src="assets/icons/mdi--heart-outline.png" alt="Add to favorite" class="main-content__card-icon">
             </div>
             <div class="main-content__producto-information-container">
               <div class="main-content__title-container">
@@ -215,7 +216,7 @@
           </div>
           <div class="main-content__seasonal-product main-content__seasonal-product--shoes">
             <div class="main-content__card-icons">
-              <img src="assets/icons/mdi--heart-outline.png" alt="" class="main-content__card-icon">
+              <img src="assets/icons/mdi--heart-outline.png" alt="Add to favorite" class="main-content__card-icon">
             </div>
             <div class="main-content__producto-information-container">
               <div class="main-content__title-container">
@@ -229,7 +230,7 @@
         </div>
         <div class="main-content__product-recomendation">
           <div class="main-content__card-icons">
-            <img src="assets/icons/lucide--arrow-up-right.png" alt="" class="main-content__card-icon">
+            <img src="assets/icons/lucide--arrow-up-right.png" alt="Linkt to seasonal offer" class="main-content__card-icon">
           </div>
           <div class="main-content__title-container main-content__title-container--center">
             <span class="main-content__title">Bring Bold Fashion</span>
@@ -237,8 +238,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 </body>
 
 </html>
