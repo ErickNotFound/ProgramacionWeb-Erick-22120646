@@ -10,11 +10,8 @@
 </head>
 
 <body>
-
-  <!-- ! Aqui comienza la sidebar -->
-
   <div class="sidebar">
-    <img src="assets/logo.png" alt="logo" class="sidebar__logo" />
+    <div class="sidebar__logo"></div>
     <div class="sidebar__links-container">
       <div class="sidebar__menu">
         <ul class="sidebar__links sidebar__links--high-gap">
@@ -25,9 +22,9 @@
             </a>
           </li>
           <li class="sidebar__link-item sidebar__link-item--selected">
-            <a href="" class="sidebar__link sidebar__link--selected"> 
+            <a href="" class="sidebar__link sidebar__link--selected">
               <img src="assets/icons/material-symbols-light--explore-outline.png" alt="icon"
-                class="icon sidebar__icon" />
+          class="icon sidebar__icon" />
               Explore now
             </a>
           </li>
@@ -46,14 +43,13 @@
           <li class="sidebar__link-item">
             <a href="" class="sidebar__link">
               <img src="assets/icons/material-symbols-light--lightbulb-outline.png" alt="icon"
-                class="icon sidebar__icon" />
+          class="icon sidebar__icon" />
               Inspiration
             </a>
           </li>
         </ul>
       </div>
       <hr class="hr-large">
-
       <div class="sidebar__quick-actions">
         <span>Quick actions</span>
         <ul class="sidebar__links sidebar__links--medium-gap">
@@ -74,7 +70,6 @@
         </ul>
       </div>
       <hr class="hr-large">
-
       <div class="sidebar__last-orders">
         <span>Last orders</span>
         <ul class="sidebar__links sidebar__links--medium-gap">
@@ -84,7 +79,6 @@
               DXNO Nike
             </a>
           </li>
-
           <li class="sidebar__link-item">
             <a href="" class="sidebar__link">
               <img src="assets/products/612YBFnE3ZL._AC_UF894,1000_QL80_.jpg" alt="icon" class="icon sidebar__icon" />
@@ -126,7 +120,7 @@
             <img src="assets/products/pantalon.jpg" alt="product" class="main-content__product-image" />
           </div>
           <div class="main-content__profile">
-            <img src="assets/icons/iconamoon--profile-circle-thin.png" alt="profile picture" />
+            <img src="assets/icons/craftswoman_7879067.png" alt="profile picture" />
             <span>Ryana</span>
           </div>
         </div>
@@ -137,6 +131,7 @@
           <button class="main-content__button main-content__button--select-down">
             <img src="assets/icons/fluent--select-all-off-20-regular.png" alt=""
               class="icon main-content__button-icon" />All
+            <div class="main-content__button-indicator"></div>
           </button>
           <button class="main-content__button">
             <img src="assets/icons/ion--man-outline.png" alt="" class="icon main-content__button-icon" />Men
@@ -153,11 +148,6 @@
         </div>
       </div>
     </div>
-
-    <!-- 
-      ! Aqui empieza la parte de los productos
-    -->
-
     <div class="main-content__products-section">
       <div class="main-content__offers">
         <div class="main-content__seasonal-offers">
@@ -170,7 +160,8 @@
             <div class="main-content__card-icons">
               <img src="assets/icons/lucide--arrow-up-right.png" alt="" class="icon main-content__card-icon">
             </div>
-            <div class="main-content__title-container main-content__title-container--center main-content__title-container--yellow-model">
+            <div
+              class="main-content__title-container main-content__title-container--center main-content__title-container--yellow-model">
               <span class="main-content__title">Winter's weekend</span>
               <span class="main-content__subtitle">keep it casual</span>
             </div>
@@ -194,9 +185,11 @@
                 class="icon main-content__card-icon main-content__card-icon--trasparent">
             </div>
             <div class="main-content__offer-option-extra">
-              <img src="" alt="modelo" class="main-content__model-img">
+              <div class="main-content__model-img main-content__model-img--model1">
+              </div>
               <div class="main-content__offer-option-extra-extra">
-                <img src="" alt="modelo" class="main-content__model-img">
+                <div class="main-content__model-img main-content__model-img--model2">
+                </div>
                 <button
                   class="main-content__button main-content__product-button main-content__product-button--small">See
                   All</button>
@@ -205,9 +198,9 @@
           </div>
         </div>
       </div>
-      <div class="main-content__products"> <!-- TODO: Terminar esta parte -->
+      <div class="main-content__products">
         <div class="main-content__seasonal-products">
-          <div class="main-content__seasonal-product">
+          <div class="main-content__seasonal-product main-content__seasonal-product--jeans">
             <div class="main-content__card-icons">
               <img src="assets/icons/mdi--heart-outline.png" alt="" class="main-content__card-icon">
             </div>
@@ -220,7 +213,7 @@
                 class="main-content__button main-content__product-button main-content__product-button--blue">$89</button>
             </div>
           </div>
-          <div class="main-content__seasonal-product">
+          <div class="main-content__seasonal-product main-content__seasonal-product--shoes">
             <div class="main-content__card-icons">
               <img src="assets/icons/mdi--heart-outline.png" alt="" class="main-content__card-icon">
             </div>
